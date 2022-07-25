@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.vshop</groupId>
-	<artifactId>cicd</artifactId>
+	<artifactId>cicd-integration</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>cicd</name>
 	<description>CICD </description>
@@ -36,6 +36,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>cicd-integration</finalName>
 	</build>
 
 </project>

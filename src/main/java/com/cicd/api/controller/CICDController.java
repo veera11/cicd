@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class CICDController {
 	@GetMapping
 	public String wishing() {
-		return "Hello! Welcome to CICD process";
+		return "Hello! Welcome GIT Jenkins Docker Kubernetes Integration Example";
 	}
 }
